@@ -1,23 +1,39 @@
-<<<<<<< HEAD
-# Salesforce-Project
-청년CRM101 프로젝트
-=======
-# Salesforce DX Project: Next Steps
+# **내일의 집 프로젝트 백업 (2025.02.03 ~ 2025.03)**
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## **📋 프로젝트 개요**
+'내일의 집' 플랫폼의 운영 효율성을 향상시키고, 파트너 및 고객의 만족도를 높이기 위한 시스템 구축을 목표로 한 프로젝트입니다. 이 시스템은 다양한 세일즈포스 기능을 활용하여 고객과 파트너의 상호작용을 최적화하고, 업무 관리 및 리포트의 효율성을 증가시켰습니다.
 
-## How Do You Plan to Deploy Your Changes?
+## **👥 프로젝트 팀**
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+| 이름     | 역할       |
+|----------|------------|
+| 손우창    | PM         |
+| 허진우    | PL / ADMIN |
+| 김종원    | PL / DEV   |
+| 김상윤    | DEV        |
+| 김영광    | ADMIN      |
 
-## Configure Your Salesforce DX Project
+## **🛠️ 기술 스택**
+- **APEX**: 비즈니스 로직 구현
+- **LWC (Lightning Web Components)**: 사용자 인터페이스(UI) 개발
+- **JavaScript**: 클라이언트 사이드 스크립트 및 동작 처리
+- **Sales Cloud**: 세일즈 프로세스 관리 및 자동화
+- **Service Cloud**: 고객 서비스 및 파트너 지원 관리
+- **Experience Cloud**: 파트너 협업 및 고객 맞춤형 서비스 제공
+- **Tableau**: 세일즈 및 서비스 업무의 시각화 대시보드
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+## **💡 프로젝트 설명**
 
-## Read All About It
+### **Sales Cloud**
+- 🔄 인테리어 및 건자재 업체 입점 심사 자동화 기능 구현.
+- 📊 리드 및 기회 관리 시스템을 통해 파트너사와의 효율적인 거래를 촉진.
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
->>>>>>> ee3bdfd (Initial commit)
+### **Experience Cloud**
+- 💼 파트너사 협업 공간을 구성하여, 파트너가 Territory 내 리드를 관리하고 선점할 수 있는 기능 제공.
+- 🏠 고객 맞춤형 시공 쇼케이스 제공을 통해, 고객의 요구에 맞는 서비스 및 업체를 빠르게 매칭.
+
+### **Service Cloud**
+- 📞 고객 및 파트너의 문의 사항을 통합 관리하고, 서비스 요청을 신속하게 해결하는 시스템 구축.
+
+### **Tableau**
+- 📊 세일즈 및 서비스 업무 보고서의 시각화 대시보드를 제공하여, 팀
